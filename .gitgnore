@@ -1,0 +1,36 @@
+INSTRUCTOR-GENERATED FILE ================
+# Source: https://github.com/denisecase/nw-diagnostics-python/
+# ============================================================
+#
+# ============================================================
+# Basic .gitignore for Python projects with VS Code 
+# This file helps specify which files should not be 
+# tracked by git, and not added to the repository.
+# ============================================================
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+# Generally, exclude virtual environments from version control.
+# They can be regenerated from a requirements.txt file and tend to be large.
+# .venv is a common name for virtual environments.
+.venv/
+venv/
+env/
+
+# ============================================================
+# Secrets
+# ============================================================
+# NEVER commit secrets. It's a security risk.
+# .env is often used to hold environment variables and secrets.
+.env  
+
+# ============================================================
+# Python Artifacts
+# ============================================================
+# Compiled python files.
+__pycache__/
+*.pyc
+*.pyo
+
+# Packaging artifacts.
