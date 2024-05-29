@@ -1,37 +1,40 @@
-# streaming-05-smart-smoker
+# Streaming-05-Smart-Smoker
 
-This project impelements a data prodcuer for streaming sensor data from a smart smoker system. The sensor data is stored in a CSV file, and the producer reads and sends it to RabbitMQ queues. 
+This project implements a data producer for streaming sensor data from a smart smoker system. The sensor data is stored in a CSV file, and the producer reads and sends it to RabbitMQ queues.
 
-Author: Habtom Woldu
+**Author:** Habtom Woldu  
+**Date:** May 27, 2024
 
-Date: May 27,2024
+## Getting Started
 
-# Getting Started 
+### Before You Begin
 
+Ensure the following requirements are met:
 
-Before you Begin
+- RabbitMQ server is running.
+- Pika library is installed in the active Python environment.
 
-Enusre the following requirments are met:
-. RabbitMQ server is running
-. pika library is installed in the the acive Python environment.
+### Key Features
 
-# The key features of this project include:
-. Reading sensor data from the CSV file:
+- Reading sensor data from a CSV file.
+- Sending data to RabbitMQ queues.
+- Simulating sensor data streaming at a rate of one value every 30 seconds.
 
-. Sending data to RabbitMQ queues 
+### How to Use the Producer
 
-.Simulating sensor data streaming at a rate of one value every 30 seconds.
-
-# How to use the producer, follow these steps:
 1. Clone the repository to your local machine.
-   
-3. Make sure RabbitMQ is running.
-   
-5. Install pika ( pib install pika)
+2. Make sure RabbitMQ is running.
+3. Install Pika:
+
+   ```bash
+   pip install pika
 
 # Usage
-1. Run the python file in the terminal 
-2. python bbq_producer_smoker.py
+
+1. Run the Python file in the terminal:
+
+   ```bash
+   python bbq_producer_smoker.py
 
 ![alt text](image.png)
 ![alt text](image-1.png)
