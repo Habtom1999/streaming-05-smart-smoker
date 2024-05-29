@@ -25,3 +25,7 @@ Enusre the following requirments are met:
 # Usage
 1. Run the python file in the terminal 
 2. python bbq_producer_smoker.py
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
