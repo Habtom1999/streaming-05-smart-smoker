@@ -30,15 +30,12 @@ Enusre the following requirments are met:
 5. Install pika ( pib install pika)
 
 # Usage
-<<<<<<< HEAD
 1. Run the python file in the terminal 
 2. python bbq_producer_smoker.py
 
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
-=======
-1. Run the python file in the terminal
-   
-3. python bbq_producer_smoker.py
->>>>>>> b1464ebd96c47ef46c31acdd6437421ffe2ffad0
+![alt text](image-3.png)
+
+
