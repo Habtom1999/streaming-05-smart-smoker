@@ -40,5 +40,6 @@ Ensure the following requirements are met:
 ![alt text](image-1.png)
 ![alt text](RabbitMQ.png)
 ![alt text](image-3.png)
+![alt text](image-2.png)
 
 
